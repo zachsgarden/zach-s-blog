@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 import {
   profileImg
 } from "../components/layout.module.css";
@@ -11,13 +12,13 @@ const IndexPage = () => {
       <p>I'm making this gooooooood.</p>
       <StaticImage
         className={profileImg}
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="Zach with his cool kids eating some great ice cream in Pigeon Forge, Tennessee."
         src="../images/cruze-fam.jpeg"
       />
     </Layout>
   )
 }
 
-export const Head = () => <title>Zaxby Site</title>
+export const Head = () => <Seo title="Home Page" />
 
 export default IndexPage
