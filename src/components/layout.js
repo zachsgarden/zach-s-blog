@@ -24,6 +24,7 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
         </ul>
+        <button>dark/light mode</button>
       </nav>
       <main>
         <h1 className={heading}>{pageTitle}</h1>

@@ -21,3 +21,12 @@
 .nav-link-text {
     color: black;
 }
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.flex-row {
+    display: flex;
+}
