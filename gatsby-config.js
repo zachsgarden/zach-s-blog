@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Zach Kamp"
+    title: "Zach is Wach"
   },
   plugins: [
     "gatsby-plugin-image",
@@ -11,6 +11,7 @@ module.exports = {
         name: `blog`, 
         path: `${__dirname}/blog`,
       }
-    }
+    },
+    "gatsby-plugin-mdx"
   ],
 }
