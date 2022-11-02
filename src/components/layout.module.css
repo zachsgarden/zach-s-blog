@@ -1,26 +1,7 @@
-.container {
-    margin: auto;
-    max-width: 1200px;
-    /* font-family: Rubik, sans-serif; */
-}
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-.nav-link-item {
-    padding-right: 2rem;
-}
 
 .nav-link-text {
     color: black;
-}
-
-.profile-img {
-    width: 300px;
-    border-radius: 50%;
 }
 
 .flex-row {
